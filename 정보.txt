@@ -1,0 +1,89 @@
+폰트 프리텐다드, 산세리프
+https://ktlea.co.kr/kor/asp/main/
+전통주수출협의회
+
+협회소개
+회원사 소개
+뉴스&middot;공지
+행사스케치
+문의하기
+KOR
+
+90 40
+
+Korea Culture,
+Korea Traditional Liquor
+
+오천년 역사와 함께 이어져 온 한국의 문화를 전통주로 경험하세요!
+
+Member Company
+
+한국 전통주의 세계화를 위해<br>
+노력하는 <span>전통주수출협의회<br>
+회원사</span>입니다.
+
+MORE
+
+<div class="imgbox">
+	<div class="tbSlider1">
+		<div class="tbSlide1"></div>
+		<div class="tbSlide1"></div>
+		<div class="tbSlide1"></div>
+	<div>
+</div>
+
+.imgBox {position:relative; width:384px; height:1050px; 
+border: 3px solid #000; overflow:hidden;}
+
+.tbSlider1, .tbSlider2 {position:absolute; display:flex; flex-wrap:wrap; width:360px;}
+
+.tbSlider1 {right:384px;}
+.tbSlider2 {right: 0;}
+
+[class*=tbSlider] > div {width:100%; height:480px;}
+.tbSlide1 {background: url(../images/scl_img1.jpg) no-reapit center; height:480px} 
+
+.tbSlider1, .tbSlider2 {animation-iteration-count: infinite; animation-duratoin: 5s;
+animation-timing-function: linear; animation-fill-mode: forwards;}
+.tbSlider1 {animation-name: slidedown;}
+.tbSlider2 {animation-name: slideup;}
+
+@keyframes slidedown {
+0% {transform: translateY(-50%);}
+100% {transform: translateY(0);}
+}
+
+@keyframes slideup {
+0% {transform: translateY(0);}
+100% {transform: translateY(-50%);}
+}
+
+컨 슆 엘
+
+News / Notice
+
+180
+한국전통주수출협의회 홈페이지 리뉴얼 2024.12.16
+"외국인들에게 프리미엄 소주 맛보여줬어요" 2024.04.08
+[박순욱의 술기행] (113) 세계 최대 규모 주류전시회 2024.03.29
+[기획] 전통주 활성화 위한 마케팅 보드 2009.12.09
+
+워드브레이크 킵
+
+Inquiry
+전통주수출협의회와 함께 할 비즈니스 또는<br>
+제휴에 대한 문의를 남겨주세요.
+
+
+전통주수출협의회
+
+회장사 : (주)한국애플리즈
+주소 : 경북 의성군 단촌면 후평리 69
+전화번호 : 054-834-7800
+Copyright&copy;전통주수출협의회 All rights reserved.
+
+onclick="window.scrollTo(0,0);"
+
+const scrollToTop = () => {window.scroll({top: 0, behavior: 'smooth'})}
+
+scroll-behavior: smooth;
